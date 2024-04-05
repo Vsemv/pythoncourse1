@@ -40,3 +40,18 @@ person['hobbies'][0] = 'basketball'
 print(person.keys())
 print(person.values())
 print(person.items())
+
+#   exercise
+
+dictionary = {
+    'name': 'Vitalik',
+    'surame': 'Buterin'
+}
+print(dictionary['surame'])
+
+pc_info = {
+    'name': 'Dell',
+    'screen resolution': '1920x1080',
+    'F button functions': {'f1': 'sound off', 'f2': 'reduce sound', 'f3': 'increase sound'}
+}
+print(pc_info['F button functions']['f2'])
