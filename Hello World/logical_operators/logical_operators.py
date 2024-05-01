@@ -21,9 +21,9 @@ y = 2
 # print(True or False)
 # print(not True)
 
-name = 'John'
-age = 21
-is_married = False
+# name = 'John'
+# age = 21
+# is_married = False
 
-if age > 18 and is_married == False:
-    print('Hi {}! you can find a girls of your dream here!'.format(name))
+# if age > 18 and is_married == False:
+#     print('Hi {}! you can find a girls of your dream here!'.format(name))
