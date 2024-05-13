@@ -141,9 +141,9 @@ print(xena.name)
 print(xena.health)
 print(xena.level)
 
-loh = GameCharacter('Gerakl', 10000, 80)
-loh.speak()
+gerakl = GameCharacter('Gerakl', 10000, 80)
+gerakl.speak()
 
 xena.speak()
-xena.kill(loh)
-print(loh.health)
+xena.kill(gerakl)
+print(gerakl.health)
