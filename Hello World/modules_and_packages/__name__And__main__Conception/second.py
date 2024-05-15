@@ -1,1 +1,2 @@
-import first
+from .first import *
+
