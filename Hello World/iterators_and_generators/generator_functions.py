@@ -63,8 +63,14 @@ print(current_day.__next__()) # 'Saturday'
 
 
 def even_odd():
-    num = ['even', 'odd']
-    count = 0
-    for number in num:
-        yield number
-        count 
+    while True:
+        yield 'even'
+        yield 'odd'
+        
+        
+even_odd_generator = even_odd()
+
+print(next(even_odd_generator)) # 'even'
+print(next(even_odd_generator)) # 'odd'
+print(next(even_odd_generator)) # 'even'
+print(next(even_odd_generator)) # 'odd'
