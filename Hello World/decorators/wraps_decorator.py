@@ -34,3 +34,19 @@ print(squares_sum(2, 3))
 print(squares_sum.__doc__)
 print(squares_sum.__name__)
 # help(squares_sum)
+
+
+
+#           excercise
+
+
+def print_args(func):
+    def wrapper(*args, **kwargs):
+        print('This is square root of ' + str(func(*args)))
+    return wrapper
+
+@print_args
+def square_func(a):
+    return a * a
+
+square_func(8)
